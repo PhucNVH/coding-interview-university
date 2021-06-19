@@ -1,34 +1,84 @@
 # Coding Interview University
 
-Original: [англійською](README.md)
+Original in [English](README.md)
+
+> Спочатку я створив це як короткий список завдань для вивчення тем, щоб стати
+інженером-програмістом, але він збільшився до великого списку, який ви бачите
+сьогодні. Пройшовши цей навчальний план,
+[мене найняли розробником програмного забезпечення в Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
+>
+> Я навчався приблизно 8-12 годин на день, протягом декількох місяців. Це моя
+історія:
+[Чому я навчався очно протягом 8 місяців для інтерв’ю в Google](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13).
+>
+> Перелічені тут ресурси добре підготують вас до технічної співбесіди практично
+в будь-якій компанії, включаючи гігантів: Amazon, Facebook, Google та
+Microsoft.
+>
+> *Нехай щастить!*
+
+<details>
+<summary>Переклади:</summary>
+
+- [中文版本](translations/README-cn.md)
+- [Tiếng Việt - Vietnamese](translations/README-vi.md)
+- [Español](translations/README-es.md)
+- [Português Brasileiro](translations/README-ptbr.md)
+- [Polish](translations/README-pl.md)
+- [繁體中文](translations/README-tw.md)
+- [Japanese (日本語)](translations/README-ja.md)
+- [Russian](translations/README-ru.md)
+- [German](translations/README-de.md)
+- [Bahasa Indonesia](translations/README-id.md)
+- [ខ្មែរ - Khmer](translations/README-kh.md)
+
+</details>
+
+<details>
+<summary>Переклади в процесі:</summary>
+
+- [हिन्दी](https://github.com/jwasham/coding-interview-university/issues/81)
+- [עברית](https://github.com/jwasham/coding-interview-university/issues/82)
+- [Arabic](https://github.com/jwasham/coding-interview-university/issues/98)
+- [Turkish](https://github.com/jwasham/coding-interview-university/issues/90)
+- [French](https://github.com/jwasham/coding-interview-university/issues/89)
+- [Українська](https://github.com/jwasham/coding-interview-university/issues/106)
+- [Korean(한국어)](https://github.com/jwasham/coding-interview-university/issues/118)
+- [Telugu](https://github.com/jwasham/coding-interview-university/issues/117)
+- [Urdu](https://github.com/jwasham/coding-interview-university/issues/519)
+- [Thai](https://github.com/jwasham/coding-interview-university/issues/156)
+- [Greek](https://github.com/jwasham/coding-interview-university/issues/166)
+- [Italian](https://github.com/jwasham/coding-interview-university/issues/170)
+- [Malayalam](https://github.com/jwasham/coding-interview-university/issues/239)
+
+</details>
 
 ## Що це?
 
-Це мій багатомісячний навчальний план для перетворення з веб-розробника (самоучки без ступеню з CS)
-на розробника програмного забезпечення у Google.
+Це мій багатомісячний план навчання для переходу від веб-розробника (самоука,
+без ступеня з комп'ютерних наук) до інженера програмного забезпечення для
+великої компанії.
 
 ![Програмування у дошки — з серіалу «Silicon Valley» HBO](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
 
-Цей довгий список був видобутий і розширений з **тренувальних нотаток Google**, отже це речі, які ви повинні знати.
-Тут є додаткові пункти, які я додав знизу — вони можуть зустрітися в інтерв’ю або бути корисними у вирішенні завдань.
-Багато пунктів взято з «[Get that job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)» Steve Yegge,
-вони іноді дослівно відображаються в тренувальних нотатках Google.
+Цей список призначено
+**для піонерів у сфері розробки програмного забезпечення** або
+тих, хто переходить від кодування/веб-розробки до більш архітектурних,
+інженерних рішень (де потрібні знання комп'ютерних наук). Якщо у вас
+багаторічний досвід і ви стверджуєте, що він таким є, очікуйте більш важкого
+інтерв’ю.
 
-Я обрав, що вам потрібно знати, базуючись на рекомендаціях Yegge. Я вніс зміни до вимог Yegge на основі інформації,
-отриманої від мого контакту у Google. Це призначено для **нових розробників програмного забезпечення** або тих,
-що переходять з веб-розробки на розробку програмного забезпечення (де потрібне знання CS). Якщо у вас багаторічний
-досвід, і ви заявляєте про багаторічний досвід розробки програмного забезпечення, очікуйте на більш жорстке інтерв’ю.
-[Прочитайте більше](https://googleyasheck.com/what-you-need-to-know-for-your-google-interview-and-what-you-dont/).
+Також якщо у вас є багаторічний досвід кодування/веб-розробки, зверніть увагу,
+що великі компанії-розробники програмного забезпечення, такі як Google, Amazon,
+Facebook та Microsoft, відрізняють розробку програмного забезпечення
+від веб-розробки, і вони потребують знання комп'ютерних наук.
 
-Якщо у вас багато років досвіду веб-розробки, майте на увазі, що Google відрізняє розробку програмного забезпечення
-від веб-розробки, і вони потребують знання Computer Science.
-
-Якщо ви хочете бути інженером з надійності або системним інженером, вчіть більше за опціональним списком (мережі,
-безпека).
+Якщо ви хочете бути інженером з надійності або системним інженером, вчіть
+більше за опціональним списком (мережі, безпека).
 
 ---
 
-## Таблиця контенту
+## Зміст
 
 - [Що це?](#Що-це)
 - [Чому це використовувати?](#Чому-це-використовувати)
@@ -181,7 +231,7 @@ Original: [англійською](README.md)
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -390,8 +440,8 @@ I made a mobile-first website so I could review on my phone and tablet, wherever
 Make your own for free:
 
 - [Flashcards site repo](https://github.com/jwasham/computer-science-flash-cards)
-- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db):
-- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham-extreme.db):
+- [My flash cards database (old - 1200 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db):
+- [My flash cards database (new - 1800 cards)](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham-extreme.db):
 
 Keep in mind I went overboard and have cards covering everything from assembly language and Python trivia to machine learning and statistics. It's way too much for what's required.
 
@@ -626,7 +676,7 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - binary search using recursion
 
 - ### Bitwise operations
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - you should know many of the powers of 2 from (2^1 to 2^16 and 2^32)
     - [ ] Get a really good understanding of manipulating bits with: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Good intro:
@@ -1248,7 +1298,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - For even more, see "Mining Massive Datasets" video series in the Video Series section.
 - [ ] Practicing the system design process: Here are some ideas to try working through on paper, each with some documentation on how it was handled in the real world:
     - review: [System Design from HiredInTech](http://www.hiredintech.com/system-design/)
-    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/system-design.pdf)
+    - [cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/system-design.pdf)
     - flow:
         1. Understand the problem and scope:
             - define the use cases, with interviewer's help
@@ -1379,7 +1429,7 @@ Challenge sites:
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 - [Sphere Online Judge (spoj)](http://www.spoj.com/)
 
 Mock Interviews:
@@ -1442,11 +1492,11 @@ You're never really done.
 
     *****************************************************************************************************
     *****************************************************************************************************
-
+    
     Everything below this point is optional.
     By studying these, you'll get greater exposure to more CS concepts, and will be better prepared for
     any software engineering job. You'll be a much more well-rounded software engineer.
-
+    
     *****************************************************************************************************
     *****************************************************************************************************
 
@@ -1881,7 +1931,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 

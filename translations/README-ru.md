@@ -193,7 +193,7 @@ Google не возьмёт тебя на работу.
 
 `git commit -m "Marked x" `
 
-`git rebase jwasham/master `
+`git rebase jwasham/main `
 
 `git push --force `
 
@@ -477,7 +477,7 @@ Google не возьмёт тебя на работу.
 Сделай свой собственный бесплатно:
 
 - [Репозиторий сайта Flashcards](https://github.com/jwasham/computer-science-flash-cards)
-- [Моя база данных с карточками](https://github.com/jwasham/computer-science-flash-cards/blob/master/cards-jwasham.db): Имейте в виду, я сделал больше чем требуется в Google, описав все начиная с assembler и заканчивая Python с машиным обучением и статистикой. 
+- [Моя база данных с карточками](https://github.com/jwasham/computer-science-flash-cards/blob/main/cards-jwasham.db): Имейте в виду, я сделал больше чем требуется в Google, описав все начиная с assembler и заканчивая Python с машиным обучением и статистикой. 
 
 **Заметка о карточках:** в первый раз вы сразу вспомните ответ, но не помечайте эту карточку как изученную. Нужно просмотреть 
 много раз карточку и ответить правильно прежде чем вы действительно ее запомните. Повторение позволяет мозгу надолго 
@@ -712,7 +712,7 @@ Google не возьмёт тебя на работу.
         - бинарный поиск с использованием рекурсии
 
 - ### Побитовые операции
-    - [ ] [Bits cheat sheet](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) - ты должен знать сколько степеней двойки от (2^1 до 2^16 и 2^32)
+    - [ ] [Bits cheat sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf) - ты должен знать сколько степеней двойки от (2^1 до 2^16 и 2^32)
     - [ ] Даст отличное понимание манипуляций битами с помощью: &, |, ^, ~, >>, <<
         - [ ] [words](https://en.wikipedia.org/wiki/Word_(computer_architecture))
         - [ ] Хорошее введение:
@@ -1378,7 +1378,7 @@ Google не возьмёт тебя на работу.
 - [Codility](https://codility.com/programmers/)
 - [InterviewCake](https://www.interviewcake.com/)
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
-- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+- [InterviewBit](https://www.interviewbit.com)
 
 Возможно:
 - [Тестовые интервьюверы из больших компаний](http://www.gainlo.co/)
@@ -1945,7 +1945,7 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [ ] [Computer Science 70, 001 - Spring 2015 - Discrete Mathematics and Probability Theory](https://www.youtube.com/playlist?list=PL-XXv-cvA_iD8wQm8U0gG_Z1uHjImKXFy)
 
-- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PL3o9D4Dl2FJ9q0_gtFXPh_H4POI5dK0yG)
+- [ ] [Discrete Mathematics by Shai Simonson (19 videos)](https://www.youtube.com/playlist?list=PLWX710qNZo_sNlSWRMVIh6kfTjolNaZ8t)
 
 - [ ] [Discrete Mathematics Part 1 by Sarada Herke (5 videos)](https://www.youtube.com/playlist?list=PLGxuz-nmYlQPOc4w1Kp2MZrdqOOm4Jxeo)
 
